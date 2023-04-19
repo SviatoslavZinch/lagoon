@@ -1,0 +1,66 @@
+@media screen and (min-width:1000px) and (hover: hover){
+.img1:hover{
+  scale:1.1;
+}
+}
+body{
+    background:linear-gradient(to bottom right, cyan,black);
+    background-size:cover;
+    background-repeat:no-repeat;
+    min-height:160vh;
+    height:fit-content;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    margin:0;
+  }
+  h1{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 10vw;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  color: #0fa;
+  font-weight: normal;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+  user-select:none;
+    
+  }
+  .img1{
+    width:20vw;
+    height:auto;
+    transform: rotateZ(20deg);
+    user-drag: none;  
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    transition: 0.3s;
+    z-index:2;
+  }
+  .cont{
+    height:fit-content;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+  }
+.sand_image{
+  z-index:1;
+  width:100%;
+  height:auto;
+  margin-top:-28vw;
+  -webkit-box-reflect: below 0px linear-gradient(transparent, rgba(255,255,255,0.4));
+}
